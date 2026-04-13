@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Assistant Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff7f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #f8cdda, #fcb69f);
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #e08ca0;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact {
+      text-align: center;
+      background: #ffe3ec;
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Azeezat | Virtual Assistant</h1>
+    <p>Helping businesses stay organized, efficient & stress-free</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        Hi! I’m a detail-oriented Virtual Assistant skilled in administrative support,
+        social media management, and customer service. I help businesses stay organized
+        and grow efficiently while saving time and reducing stress.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Services I Offer</h2>
+    <div class="card">
+      <ul>
+        <li>Email Management</li>
+        <li>Calendar Scheduling</li>
+        <li>Data Entry</li>
+        <li>Social Media Management</li>
+        <li>Customer Support</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tools I Use</h2>
+    <div class="card">
+      <ul>
+        <li>Google Workspace</li>
+        <li>Microsoft Office</li>
+        <li>Canva</li>
+        <li>Trello</li>
+        <li>Slack</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sample Projects</h2>
+
+    <div class="card">
+      <h3>Email Management System</h3>
+      <p>Organized inbox for a client and reduced unread emails by 80%.</p>
+    </div>
+
+    <div class="card">
+      <h3>Social Media Content Plan</h3>
+      <p>Created a 30-day content calendar and designed engaging posts.</p>
+    </div>
+
+    <div class="card">
+      <h3>Data Entry Project</h3>
+      <p>Entered and cleaned 500+ records using Excel with high accuracy.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <p><strong>Email:</strong> your@email.com</p>
+      <p><strong>WhatsApp:</strong> +234XXXXXXXXXX</p>
+      <p><strong>LinkedIn:</strong> your-linkedin-profile</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Azeezat | Virtual Assistant</p>
+  </footer>
+
+</body>
+</html>
