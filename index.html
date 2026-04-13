@@ -9,73 +9,94 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #fff7f9;
+      background: #fff7f9;
       color: #333;
     }
 
     header {
-      background: linear-gradient(to right, #f8cdda, #fcb69f);
-      padding: 50px 20px;
+      background: linear-gradient(135deg, #f8cdda, #fcb69f);
+      padding: 80px 20px;
       text-align: center;
       color: white;
     }
 
     header h1 {
+      font-size: 3rem;
       margin: 0;
-      font-size: 2.5rem;
+      letter-spacing: 1px;
     }
 
     header p {
-      font-size: 1.2rem;
-      margin-top: 10px;
-    }
-
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h2 {
-      color: #e08ca0;
-      margin-bottom: 10px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      margin-bottom: 20px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    .contact {
-      text-align: center;
-      background: #ffe3ec;
-      padding: 30px;
-      border-radius: 15px;
+      font-size: 1.3rem;
+      margin-top: 15px;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 15px;
-      padding: 12px 25px;
-      background: #e08ca0;
-      color: white;
-      border-radius: 10px;
+      margin-top: 20px;
+      padding: 14px 30px;
+      background: white;
+      color: #e08ca0;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ffe3ec;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #e08ca0;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .contact {
+      text-align: center;
+      background: linear-gradient(135deg, #ffe3ec, #fff);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    .contact a {
+      color: #e08ca0;
       text-decoration: none;
       font-weight: bold;
     }
 
     footer {
       text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
+      padding: 30px;
+      color: #888;
     }
   </style>
 </head>
@@ -83,63 +104,61 @@
 <body>
 
   <header>
-    <h1>ZeeVa | Virtual Assistant</h1>
-    <p>I help busy entrepreneurs stay organized, grow their brand, and save time.</p>
+    <h1>ZeeVa</h1>
+    <p>Your go-to Virtual Assistant for organization, growth & stress-free business</p>
+    <a href="https://wa.me/2349033446604" class="btn">Hire Me</a>
   </header>
 
   <section>
     <h2>About Me</h2>
     <div class="card">
       <p>
-        Hi! I’m Azeezat, a detail-oriented Virtual Assistant skilled in administrative support,
-        social media management, and customer service. I help businesses stay organized,
-        increase productivity, and grow efficiently.
+        Hi, I’m Azeezat — a dedicated Virtual Assistant helping busy entrepreneurs stay organized,
+        manage their workload, and grow their business with ease. I bring structure, creativity,
+        and efficiency into every task I handle.
       </p>
     </div>
   </section>
 
   <section>
-    <h2>Services I Offer</h2>
-    <div class="card">
-      <ul>
-        <li>Email Management</li>
-        <li>Calendar Scheduling</li>
-        <li>Data Entry & Organization</li>
-        <li>Social Media Management</li>
-        <li>Customer Support</li>
-      </ul>
+    <h2>Services</h2>
+    <div class="grid">
+      <div class="card">Email Management</div>
+      <div class="card">Calendar Scheduling</div>
+      <div class="card">Data Entry</div>
+      <div class="card">Social Media Management</div>
+      <div class="card">Customer Support</div>
     </div>
   </section>
 
   <section>
-    <h2>Tools I Use</h2>
-    <div class="card">
-      <ul>
-        <li>Google Workspace</li>
-        <li>Microsoft Office</li>
-        <li>Canva</li>
-        <li>Trello</li>
-        <li>Slack</li>
-      </ul>
+    <h2>Tools</h2>
+    <div class="grid">
+      <div class="card">Google Workspace</div>
+      <div class="card">Microsoft Office</div>
+      <div class="card">Canva</div>
+      <div class="card">Trello</div>
+      <div class="card">Slack</div>
     </div>
   </section>
 
   <section>
     <h2>My Work</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Email Management</h3>
+        <p>Structured inbox systems to improve workflow and productivity.</p>
+      </div>
 
-    <div class="card">
-      <h3>Email Management</h3>
-      <p>Organized inboxes using folders, filters, and labels to improve efficiency.</p>
-    </div>
+      <div class="card">
+        <h3>Content Creation</h3>
+        <p>Designed engaging social media content and monthly plans.</p>
+      </div>
 
-    <div class="card">
-      <h3>Social Media Content</h3>
-      <p>Designed engaging posts and created a 30-day content calendar using Canva.</p>
-    </div>
-
-    <div class="card">
-      <h3>Data Entry</h3>
-      <p>Accurately entered and cleaned large datasets using Excel and Google Sheets.</p>
+      <div class="card">
+        <h3>Data Entry</h3>
+        <p>Organized and cleaned data efficiently with high accuracy.</p>
+      </div>
     </div>
   </section>
 
@@ -147,27 +166,25 @@
     <h2>Contact Me</h2>
     <div class="contact">
 
-      <p><strong>Email:</strong><br>
+      <p>Email: 
         <a href="mailto:lawalazeezat469@gmail.com">
           lawalazeezat469@gmail.com
         </a>
       </p>
 
-      <p><strong>WhatsApp:</strong><br>
+      <p>WhatsApp: 
         <a href="https://wa.me/2349033446604">
           +234 903 344 6604
         </a>
       </p>
 
-      <p><strong>LinkedIn:</strong><br>
+      <p>LinkedIn: 
         <a href="https://www.linkedin.com/in/lawal-azeezat-52112837a" target="_blank">
-          View My Profile
+          View Profile
         </a>
       </p>
 
-      <a href="https://wa.me/2349033446604" class="btn">
-        Hire Me on WhatsApp
-      </a>
+      <a href="https://wa.me/2349033446604" class="btn">Let’s Work Together</a>
 
     </div>
   </section>
